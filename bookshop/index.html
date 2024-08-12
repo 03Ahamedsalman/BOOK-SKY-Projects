@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="styleSheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div id="one">
+        <H1>BOOKSKYPROJECTS</H1>
+    </div>
+</header>
+<div class="container">
+    <div class="book-container">
+        <h2>Rich Dad poor dad </h2>
+        <h4>Robert T.Kiyosaki</h4>
+        <hr>
+        <br>
+
+        <p>Robert Kiyosaki had two fathers: a rich one and a poor one. One was highly educated with a Ph.D. and so intelligent he completed his undergraduate degree in only two years. The other father didn’t even finish the eighth grade. While both men worked hard, were successful, and earned a lot of money, there was always one who struggled with money. And the other dad, well, he became one of the richest people in Hawaii. 
+
+            By having two dads, with entirely different mindsets, Kiyosaki found himself comparing the two dads a lot. It was hard to figure out which dad he should listen to. Neither had found success yet. And both were experiencing financial struggles as they were still early in their careers.
+            
+            Schools don’t provide financial education. Thus, causing the poor and middle class to be in debt. If millions of people need financial or medical assistance, Medicare and Social Security may run out. 
+            
+            Transitioning from the mindset of “I can’t afford it” to “How can I afford it?” forces you to think instead of letting yourself off the hook</p>
+            <button onclick="deletebook(event)">Delete</button>
+
+    </div>
+    
+
+</div>
+<div class="pop-area"></div>
+<div class="pop-box " id="pop-box-container">
+    <h2>Add Book</h2>
+    <hr>
+    <from>
+        <input type="text" placeholder="Book Title" id="Book-name">
+        <input type="text" placeholder="Book Author " id="Book-Author">
+        <textarea id="short-description" placeholder="description"></textarea>
+    </from>
+    <button id="add-button">Add</button>
+    <button id="Cancel-button">Cancel</button>
+</div>
+<button class="button-one" id="button-popup">+</button>
+<script src="script.js">
+</script>
+</body>
+</html>
